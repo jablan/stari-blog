@@ -11,3 +11,7 @@ github_username:  jablan
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
+ 

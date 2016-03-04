@@ -4,6 +4,7 @@ title: Zašto je PHP bolji od Rubija
 date: '2011-02-24T18:30:00+01:00'
 tags: []
 tumblr_url: http://jablan.radioni.ca/post/3485417396/zašto-je-php-bolji-od-rubija
+redirect_from: "/post/3485417396/zašto-je-php-bolji-od-rubija"
 ---
 [Prevod članka Alija Nadžafa, britanskog programera. Original je ovde: [Why PHP is better than Ruby](http://najafali.com/php-is-better-than-ruby.html)]
 

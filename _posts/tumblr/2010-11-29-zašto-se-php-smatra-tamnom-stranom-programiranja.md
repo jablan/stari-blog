@@ -7,6 +7,7 @@ tags:
 - programiranje
 - prevod
 tumblr_url: http://jablan.radioni.ca/post/1730587462/zašto-se-php-smatra-tamnom-stranom-programiranja
+redirect_from: '/post/1730587462/zašto-se-php-smatra-tamnom-stranom-programiranja'
 ---
 U pitanju nije moj tekst, već moj prevod, original možete naći [ovde](http://programmers.stackexchange.com/questions/2323/why-is-php-considerd-the-darkside-of-programing/6024#6024). Preveo sam ga jer dobro formuliše moj lični stav o PHP-u.
 
