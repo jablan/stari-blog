@@ -6,7 +6,7 @@ tags:
 - php
 - language war
 tumblr_url: http://jablan.radioni.ca/post/4991817597/appeasing-programming-language-gods
-redirect_from: '/post/4991817597/appeasing-programming-language-gods'
+redirect_from: '/post/4991817597/appeasing-programming-language-gods/'
 lang: en
 ---
 Just recently, a fellow coder wrote the following tweet:
