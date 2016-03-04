@@ -1,0 +1,26 @@
+---
+layout: post
+title: ".co.yu"
+date: '2006-07-26 15:37:51 +0200'
+mt_id: 181
+post_id: 181
+author: mileusna
+---
+Vidim da se nešto [radi](http://www.personalmag.co.yu/blog/index.php?postid=1009) oko registra za YU domene. Iskreno se nadam da će cela ta akcija oko Nacinalnog Internet domena imati neke rezultate i to što pre, jer je ovo trenutno stanje neodrživo i nedopustivo.
+
+Nedavno sam hteo svom zetu da prebacim sajt na svoj server. Domen je naravno .co.yu što je zahtevalo da popunim [formular](http://www.nic.yu/domreg-s.html) i unesem izmene DNS servera. Ukoliko nemate u arhivi podatke sa kojima je tačno registrovan domen, ili ukoliko niste vi izvršili registraciju domena, sledi rekonstrukcija u glavi, ko je tad radio u firmi i bio unešen kao administrativni kontakt, koga sam naveo za tehnički kontakt i sl?
+
+Ok, popunim ja to nekako i konačno posle **dve nedelje** stigne mi odgovor da je zahtev odbije jer nisam naveo tačno sedište firme. Ja sam u prijavi naveo adresu kancelarije sa vizit karte, dok se firma verovatno vodi na drugom mestu. To bi navodno trebalo da posluži kao provera identiteta da ste vi zaista osoba koja predstavlja firmu. No dovoljno je otići na sajt [Agencije za privredne registre](http://www.apr.sr.gov.yu/) i nakon jedne pretrage dobićete kompletne podatke o željenoj firmi. Mnogo jednostavnije nego da sam zvao njih da ih pitam gde im je sedište. Toliko o toj "rigoroznoj" kontroli. Popunim zahtev još jednom i onda čekam još **dve nedelje**.
+
+Zatim stiže odgovor da moram na memorandumu firme da dostavim izjavu da je firma saglasna sa izmenama. Treba sad poslati mail/pozvati firmu i objasniti im šta treba da mi otštampaju na svom memorandumu. S obzirom da se to uvek poveri nekoj sekretarici i da je sezona godišnjih odmora, na taj dokument sam se načekao još **tri nedelje**.
+
+Konačno dobih i taj A4 papir sa izjavom. Prema [uputstvu](http://www.nic.yu/faq-modif.html) skenirao sam ga i poslao "nadležnima". Razmišljam se što li sam toliko čekao, pa i dete bi ovo moglo da uradi u Photoshopu, na skeniranom dokumentu se to ne bi ni primetilo, a bogami, moj memorandum bi lepše i izgledao :) No, ja sam poslao **original**. Onda posle par dana, opet sledi odgovor da mi je zahtev - odbijen. Kažu nisam dostavio traženu dokumentaciju (?!). :)
+
+E sad ko je ovde lud ja ne znam. Ako meni treba mesec-i-po dana da (neuspešno) promenim DNS za jedan domen, to je mislim krajnji bezobrazluk. I kako onda verovati da ova zemlja ima neke ozbiljne namere vezane za informatičku industriju. Svima su puna usta Irske, a čovek ne može ni svojim domenom da raspolaže kako želi.
+
+Ironično, pre nekih šest meseci sam uspešno prebacio jedan .CO.YU domen uz jednostavnu popunu formulara, bez ikakvih dokumenata, naravno uz čekanje od par nedelja. Tada sam unapred bio u strahu da ću imati slične probleme, jer od ranije znam kako sve funkcioniše, ali sam igrom slučaja (?!) izgleda imao sreće. Kao i sve u ovoj zemlji, neki put nešto može, a neki put nešto ne može.
+
+Naravno, izlišno je pominjat i to da sam vlasnik nekoliko com/net domena, pa čak i jednog co.uk domena, kojima u svakom trenutku mogu da raspolažem kako mi volja. Stvarno bruka...
+
+**Update:** Konačno prebacih domen. Ponovio sam celu proceduru, popunio formular sa istim podacima, poslao isti skenirani dokument i izmene su sada prihvaćene (?!). Sad možete slobodno da razgledate [gume, motorna ulja i akumulatore](http://www.sektor.co.yu). :)
+

@@ -1,0 +1,18 @@
+---
+layout: post
+title: Bez alata...
+date: '2006-08-18 09:43:42 +0200'
+mt_id: 182
+post_id: 182
+author: jablan
+---
+Pomenuo bih ukratko par alata koje sam, sâm ili sa timom, počeo da koristim u poslednje vreme i kojima sam jako zadovoljan...
+
+[SciTE](http://www.scintilla.org/SciTE.html), (zasad) ultimativni tekst editor. Otvoren je, jako mali i brz, podržava sve što treba (bojenje koda, indentovanje, code folding, kodne rasporede, pokretanje interpretera ili kompajlera, fino prilagođavanje itd). Takođe, radi na obe platforme (Windows i Linux), pa ga koristim i na poslu i kod kuće. Jedina mana mu je malo komplikovano podešavanje, koje se vrši editovanjem konfiguracionih fajlova, ali jednom kad ga namestite, radi ko sat.
+
+[FlySpray](http://flyspray.rocks.cc/), jednostavan alat za [praćenje bagova](http://en.wikipedia.org/wiki/Bugtracker). Koristi PHP i MySQL. Vrlo je intuitivan za korišćenje i nudi tačno ono što treba, ni manje, ni više. Otvoren. Brz. Lak za instalaciju. Instalirao sam ga u firmi na svoju ruku i na moje ogromno zadovoljstvo, odmah se primio među programerima (ništa lepše nego kad me neko kome ga nisam direktno preporučio, zamoli da mu napravim nalog!)...
+
+[DokuWiki](http://wiki.splitbrain.org/wiki:dokuwiki), jednostavan [viki](http://en.wikipedia.org/wiki/Wiki) koji ne zahteva postojanje baze, već članke čuva u tekstualnim fajlovima. Takođe sam ga instalirao na svoju ruku za potrebe lokalne baze znanja u firmi. Radi na PHP-u. Jednostavno obožavam njegovo formatiranje teksta, prosto tera čoveka da koristi sve fine tagove... Podržava farbanje kôda i to u par desetina različitih jezika, između ostalih i C#. ;) Pogledajte njihov sajt, urađen je u dotičnom alatu.
+
+Zahvaljujem se dobrim ljudima sa [DevProTalk](http://www.devprotalk.com/) foruma na preporukama za neke od navedenih alata!
+

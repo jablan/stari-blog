@@ -1,0 +1,12 @@
+---
+layout: post
+title: Firefox 1.5
+date: '2005-11-30 18:29:26 +0100'
+mt_id: 145
+post_id: 145
+author: mileusna
+---
+Posle nekoliko beta verzija i tri release kandidata, puštena je u rad nova verzija [Firefox](http://getfirefox.com) brauzera.
+
+Da ne bih izmišljao toplu vodu, prenosim deo članka sa sajta [Bench-Market](http://www.naslovi.net/rd/72039):_"Pre svega tu je novi Gecko 1.8 rendering engine. Na zvaničnoj listi noviteta tu su još brža i komotnija navigacija, brža pretraga i poboljšanja na back i forward fukcijama, poboljšanja i optimizacije tabova, zatim unapređen pop-up bloker, lako dostupna opcija Clear private data, kao i veoma interesantan Wizard za prijavljivanje sajtova koji ne rade korektno pod ovom verzijom Firefoxa. Takođe tu je i, usudili bismo se reći standardna, gomila sigurnosnih poboljšanja. U svakom slučaju možemo konstatovati da je Mozilla nakon godinu dana od izbacivanja verzije sa oznakom 1.0 ovog pretraživača privukla sebi ogroman broj pristalica, a statistički podaci pokazuju da je trend porasta broja korisnika ovog pretraživača i dalje prisutan._"
+

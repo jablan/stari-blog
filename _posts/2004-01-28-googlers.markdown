@@ -1,0 +1,12 @@
+---
+layout: post
+title: Googlers
+date: '2004-01-28 10:00:43 +0100'
+mt_id: 62
+post_id: 62
+author: mileusna
+---
+Zanima vas kako funkcioniše pretraživač poput Google-a? Na stranici [Papers written by Googlers](http://labs.google.com/papers.html) možete pronaći mnoštvo studija čiji su autori zaposleni u Google, uključujući i one koje su pisali Sergey Brin i Lawrence Page, osnivači Googlea, a koje objašnjavaju mnoge tehničke detalje na koje je potrebno obratiti pažnju prilikom projektovanja jednog web pretraživača. Tekstova ima dosta, pa ko voli, nek izvoli...
+
+Ukoliko niste znali, [Google Labs](http://labs.google.com) je inače mesto na kome možete pogledati demo-verzije novih Google ideja, od kojih mnoge možda i neće ugledati svetlo dana, ali je zanimljivo s vremena na vreme pogledati šta se sve kuva u Google kuhinji.
+

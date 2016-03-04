@@ -1,0 +1,20 @@
+---
+layout: post
+title: 468x60
+date: '2005-04-14 20:24:57 +0200'
+mt_id: 125
+post_id: 125
+author: mileusna
+---
+Poput mnogih web sajtova kod nas, [Naslovi.net](http://naslovi.net) su uključeni u mrežu za razmenu banera. Najrasprostranjeniji servisi kod nas su [Klik](http://www.klik.co.yu) i [YuLink](http://www.yulink.co.yu).
+
+Javna je tajna da su klasični baneri veličine 468x60 izuzetno neefikasni kada se radi o dovođenju novih posetilaca na vaš sajt. Kažem javna tajna, jer vam nijedan webmaster koji prodaje reklamini prostor na svom sajtu neće to priznati, iako je ta činjenica dobro poznata te se u novije vreme u svetu sve više koriste baneri drugačijih dimenzija. Statistike govore da broj kilkova u odnosu na broj prikazanih banera čini tek nekih 1-2%.
+
+Naravno, kada sam se priključivao mreži za razmenu banera bio sam svestan te činjenice, no kako sam se nadao da će Naslovi imati solidnu posećenost, očekivao sam i da će broj prikazanih banera biti dovoljan da ipak dovuče nekog novog posetioca na sajt. Prošlo je verovatno više od godinu dana kada sam poslednji put proveravao statistike o prikazivanjima i klikovima na svoj baner. Pre neki dan sam se ulogovao na svoj nalog na YuLink mreži za razmenu banera i evo šta sam zatekao:  
+**Broj klikova na vaš baner: 1774**. Fina cifra, makar se i radilo o vremenskom intervalu od godinu dana, ukoliko je 1700 ljudi saznalo po prvi put za moj sajt, ja sam zadovoljan.  
+**Broj prikazivanja vašeg banera: 400937**. Ukoliko podelite ove dve cifre doći ćete do poražavajuće cifre od 0,4%, znači manje čak i od jednog procenta.
+
+Ukoliko se budete odlučivali da li da vaš novac investirate u neku reklamnu kampanju preko banera, imajte ove informacije u vidu.
+
+Van teme o banerima, da pomenem samo da smo se jablan i ja dogovorili da zajedničkim snagama osposobimo komentare i odbranimo ih od spama, pa se nadamo da će slanje komentara uskoro biti ponovo omogućeno.
+

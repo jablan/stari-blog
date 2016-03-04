@@ -1,0 +1,12 @@
+---
+layout: post
+title: PostgreSQL 8.0
+date: '2005-02-20 18:00:33 +0100'
+mt_id: 120
+post_id: 120
+author: mileusna
+---
+Jedna od najpopularnijih OpenSource baza podataka, [PostgreSQL](http://postgresql.org), izašla je i u svojoj osmoj verziji. Glavni [novitet](http://www.postgresql.org/docs/whatsnew) u verziji 8.0 je taj da po prvi put PostgreSQL nudi "native" Windows database server. Da podsetim, dosadašnje verzije Postgre servera zahtevale su instalaciju Cygwin Unix emulatora koji je Unix pozive prevodio u Win32 instrukcije.
+
+Sada za tim više nema potrebe što kandiduje PostgreSQL i za razvoj windows desktop poslovnih aplikacija kao i intranet aplikacija koje rade na Windows platformi. Da podsetim, prednost PostgreSQL-a u odnosu na najozbiljnijeg OpenSource protivnika [MySQL](http://mysql.com) je ta što za razliku od MySQL-a, PostgreSQL podržava i transakcije, provere integriteta, trigere, uskladištene procedure kao i ostale mogućnosti koje pravi RDBM sistem i treba da ima.
+

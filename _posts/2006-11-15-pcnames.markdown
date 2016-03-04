@@ -1,0 +1,10 @@
+---
+layout: post
+title: PCNames
+date: '2006-11-15 19:57:28 +0100'
+mt_id: 189
+post_id: 189
+author: mileusna
+---
+[PCNames.com](http://www.pcnames.com/) je ajaksirani pretraživač slobodnih domena. Radi veoma brzo i zadovoljstvo ga je koristiti. Pored klasične pretrage domena nudi i dodatne [alate](http://www.pcnames.com/tools.htm) kao što su sugestija domena sa sličnim imenom, pretraga domena čije se ime može naći u rečniku i sl.
+

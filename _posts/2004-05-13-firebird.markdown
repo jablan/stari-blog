@@ -1,0 +1,16 @@
+---
+layout: post
+title: Firebird
+date: '2004-05-13 04:08:16 +0200'
+mt_id: 90
+post_id: 90
+author: mileusna
+---
+Priča o Firefoxu podseti me na jedan zanimljivi open source proizvod pod nazivom [Firebird](http://firebird.sourceforge.net/). U pitanju je još jedna open source baza podataka kojoj priželjkujem uspešnu budućnost.
+
+Firebird ima znatno bolju početnu poziciju od popularnog MySQL-a koji je nastao iz mSQL baze podataka. Naime reč je ni manje ni više o popularnoj bazi podataka firme Borland pod nazivom [InterBase](http://www.borland.com/interbase/) koja je u verziji 6.0 izdata kao open source. Osim što je publikovao svoj [izvorni kod](http://info.borland.com/devsupport/interbase/opensource/), Borland se nije preterano trudio da promoviše svoju bazu otvorenog koda, a ubrzo se i vratio na komercijalna rešenja, no i to je bilo dovoljno da nastane Firebird 1.0 koji je u potpunosti kompatibilan sa InterBase verzijom 6.0. Firebird se sada razvija kao nezavistan proizvod, izdata je verzija 1.5 dok je InterBase nagurao do verzije 7. Iako nadalje ova dva proizvoda nemaju dodirne tačke, kompatibilnost je i dalje ogromna, što dokazuju i svi linkovi za dokumentaciju sa Firebird sajta koji mahom ukazuju na Interbase web strane.
+
+[Firebird](http://www.firebirdsql.org/ff/foundation/FBFactsheet.html) je kompletna relaciona baza sa integritetima, trigerima, uskladištenim procedurama i svi ostalim lepim stvarima kojima se čuveni MySql ne može pohvaliti. Pored ostalih operativnih sistema podržani su naravno i Linux i Windows verzija, a postoji i lepa mogućnost "ugradnje" celog SQL servera u aplikaciju u vidu DLL-a što je pogodno za razvoj aplikacija koje će se izvršavati na jednom računaru ili za CD prezentacije. Baza je potpuno besplatna i za ličnu i za komercijalnu upotrebu, čak iako prodajete aplikacije razvijene na Firebird platformi, što takođe nije slučaj kod [MySQL-a](http://www.mysql.com/products/licensing/commercial-license.html).
+
+O performansama ne mogu puno reći iz kratkog iskustva, no InterBase nije nepoznata baza podataka, tako da verujem da je i Firebird spreman za teška iskušenja. U svakom slučaju, Firebird se sve više pominje u stručnim člancima o bazama otvorenog koda pored [PostgreSQL](http://www.postgresql.com) i nezaobilaznog MySQL-a. Po onome što nudi, ja bih mu dao i određenu prednost u odnosu na druga dva proizvoda, ali vreme će pokazati koji je krajnji domet Firebirda.
+

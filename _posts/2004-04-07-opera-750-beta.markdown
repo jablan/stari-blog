@@ -1,0 +1,14 @@
+---
+layout: post
+title: Opera 7.50 beta
+date: '2004-04-07 10:51:11 +0200'
+mt_id: 84
+post_id: 84
+author: jablan
+---
+Već duže vreme se na Operinom [sajtu](http://www.opera.com) ne pojavljuju nove verzije... Pretraživao sam malo i video da se radi na verziji 7.50, par beta izdanja je [već izašlo](http://my.opera.com/forums/showthread.php?s=&threadid=47230) za Vindous i Mek.
+
+Pročitavši najavu novih funkcionalnosti, ponešto sam razočaran strategijom Opere. Izgleda da se više ide u širenje obima integrisanih funkcija nevezanih za veb (mejl, njuz, IM servisi) nego u poboljšanje samog brauzera, što mene definitivno odvraća od jačeg vezivanja za ovaj brauzer.
+
+Ja bih lično više voleo da vidim ugrađenu podršku za XML i XSL, kao možda i neki modul za preuzimanje celog (ili dela) sajta. Međutim, njihova strategija me ne čudi jer, s obzirom da je Opera komercijalni proizvod, sigurno će više korisnika pridobiti integracijom mejl klijenta nego XML parsera u svoj proizvod.
+

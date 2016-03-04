@@ -1,0 +1,14 @@
+---
+layout: post
+title: SQLite
+date: '2003-11-14 08:17:28 +0100'
+mt_id: 45
+post_id: 45
+author: mileusna
+---
+Prilikom razvoja nekih manjih aplikacija na Windows platformi obično mi je neophodna i neka mala baza podataka. Elem, za tako male programe koji bi se distribuirali i putem neta, malo je neprikladno zahtevati da postoji instalacija MySQL-a ili nekog drugog database servera, pa se, okreni obrni, izbor do sada svodio na po meni ne baš srećno rešenje sa MS Accessom.
+
+Nedavno sam pronašao proizvod koji će možda rešiti ovakve probleme. [SQLite](http://www.hwaci.com/sw/sqlite/) je database server, ili bolje rečeno biblioteka koja funkcionalnost database servera ugrađuje direktno u vašu aplikaciju. Podaci za jednu bazu su smešteni u jednu datoteku. Podacima pristupate standardnim SQL komandama i nakon kraćeg testiranja, mogu reći da sve radi fino i brzo. SQLite podržava transakcije ali, kao i mnoge druge open source baze podataka, ne podržava sve opcije koje bi jedan RDBMS trebalo da ima (stored procedures, foreign keys itd.). No, to se od ovakvog proizvoda nije ni očekivalo.
+
+Zahvaljujući Open Source zajednici, postoje razvijeni [wrapperi](http://www.sqlite.org/cvstrac/wiki?p=SqliteWrappers) za većinu razvojih alata koji se danas koriste. Napomenimo da će podrška za SQLite biti ugrađena u nadolazeći PHP 5.0, što govori u prilog tome da je u pitanju istestiran i stabilan proizvod. Ugrađivanjem u PHP 5.0, SQLite može postati korisna stvar za sve one koji u svom hosting paketu nemaju uključenu podršku za MySQL.
+

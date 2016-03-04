@@ -1,0 +1,12 @@
+---
+layout: post
+title: PHP 5.0.0
+date: '2004-07-14 06:57:30 +0200'
+mt_id: 96
+post_id: 96
+author: mileusna
+---
+Posle više "kandidata", [PHP](http://www.php.net) je izašao i u finalnoj verziji 5.0.0. Pored bogatijeg [rada sa objektima](http://www.zend.com/php5/articles/engine2-php5-changes.php), nalik onom u pravim OO jezicima, tu je i poboljšana podrška za XML, ugrađena podrška za SQLite server o kome sam već pisao na radionici, kao i pristup preko objekta za [MySQL](http://www.mysql.com) uz podršku novim opcijama koje nudi MySQL u verziji 4 itd. itd.
+
+Ovo sve pišem bez probe, čitajući saopštenja za štampu. Vreme će pokazati šta PHP 5 zaista nudi. Uz svu tu podršku objektno orjentisanom programiranju, čak i try/catch blokovima, mislim da ne bi bilo loše da uz sve to isporuče i neki kompajler. :)
+

@@ -1,0 +1,28 @@
+---
+layout: post
+title: Maslov, fudbaleri i visoke peći
+date: '2004-01-07 23:10:50 +0100'
+mt_id: 55
+post_id: 55
+author: jablan
+---
+Mnoge firme koje se bave izradom softvera premalo pažnje posvećuju stvaranju jasne slike o sebi i svojim proizvodima kod novopridošlog kadra. Ovaj članak, prvi "ozbiljniji" posle dužeg vremena, bavi se upravo ovom temom.
+
+
+
+<!--more-->
+
+Jedna od retkih interesantnih stvari koje smo učili na fakultetu bila je iz predmeta _psihologija organizacije_. Naime, reč je o tzv. [Maslovljevoj teoriji motivacije](http://www.ship.edu/~cgboeree/maslow.html). Ukratko (jer toliko otprilike i pamtim), radi se o hijerarhiji vrsta različitih poriva koje čoveka teraju na neku akciju. Na prvom mestu je, naravno, nagon za preživljavanjem, to jest fiziološke potrebe čoveka. Zatim ide potreba za sigurnošću, pripadnosti, ljubavlju, pažnjom itd. Kada čovek zadovolji jednu grupu potreba, postepeno prenosi težište na one sofisticiranije, više ljudske a manje životinjske. Na samom vrhu lestvice, kao duboko ljudska odlika, nalazi se potreba za samoaktuelizacijom, odnosno samopotvrđivanjem. čovek jednostavno želi da jasno vidi sopstveno mesto i značaj u društvu, želi da bude bitan i da ostavi neki trag iza sebe. ![Maslovljeva hijerarhija potreba]({{ site_url }}/images/hierarchy.gif)
+
+U proizvodnji softvera, pa i u bilo kojoj drugoj proizvodnji, vrlo se često zapostavljaju Maslovljevi principi. Neću sad govoriti o propalim društvenim firmama i mogu li njihove plate namiriti pa i onu primarnu potrebu za prostim fizičkim opstankom, mada svakako i tu ima materijala za priču. Ono o čemu želim da pišem je činjenica da mnoge firme vrlo malo toga čine da njihovi zaposleni steknu pravu sliku o svom mestu i svrsi u celom organizacionom korpusu.
+
+Naime, više puta sam i sam, ušavši u neki nov posao, brutalno bio bačen za računar i dato mi je parče projekta na kome treba da radim. Ako sam imao sreće, pa sam došao u koliko-toliko organizovanu sredinu, data mi je i jasna specifikacija šta se tačno očekuje od mene. Ma koliko čudno zvučalo, ono što mi vrlo često nije jasno objašnjeno je šta ustvari ja to pravim, čemu služi ceo taj proizvod, ko treba da ga koristi, odnosno ko ga već koristi, i na koji način. Sliku o krajnjem proizvodu, koji se, na kraju krajeva i prodaje, morao sam da sklapam iz parčića, kao neki korporativni _puzzle_.
+
+Ha, pa sve ovo i nije tako strašno, reći ćete vi. Dobio sam specifikaciju, poznajem alat, mogu da proizvodim ono što se od mene traži. Za razbijanje ove zablude poslužiću se malom analogijom. Zamislite fudbalsku utakmicu na terenu koji je sav izdeljen paravanima. Svaki od igrača ima svoje parče terena koje kontroliše, i ne vidi ostatak. Nije svestan kad tim za koji igra da go, niti kad primi go. Ne vidi nikakvu reakciju publike sa tribina. Ali igrač jako dobro zna šta treba da radi kad se lopta pojavi u njegovoj parceli, za to je stručan. Mislite da bi se igra odvijala na isti način? Naravno da ne bi: stvar je u motivaciji. Igrač ne vidi dobro svoju ulogu u celoj priči. Ne može da se bori za _našu stvar_.
+
+Iako malo pomerena na drugi teren, ista priča sa motivacijom važi i u proizvodnji softvera. Naravno da ću bolje raditi kad znam ko sam, kad osetim oblik i gabarite tog tela koje svakodnevno hranim linijama kooda (ma koliko skladno ili nakazno ono bilo). Takođe, želim da znam i pravac u kome se cela stvar kreće. Šta menadžment želi da napravi od proizvoda za 6 meseci, godinu, dve, pet. Iako možda bez direktne posledice na moj kood, želim da steknem pravu sliku o njegovoj vrednosti i svrsishodnosti. Ovako smo samo slepi ložači koji svakodnevno pune neke visoke peći svojim _if_ovimai _while_ovima, ne znajući gde ta silna energija ide.
+
+Cela ova priča možda i ne bi bila tako potrebna da lek za problem nije tako nadohvat ruke i tako bezobrazno jeftin: organizovati jedno uvodno predavanje o proizvodu novim kadrovima, i to pre zapošljenja i periodično, možda jednom u 3 ili 6 meseci, po jedno takoreći diferencijalno predavanje. Uvodno predavanje ne treba da sadrži nikakve tehničke pojedinosti (sa tim se novi radnici vrlo brzo sretnu), već bukvalno predstavljanje proizvoda spolja. Zato i ideja da se predavanje drži _pre_zapošljenja, da bi svi koji su došli na konkurs, bez obzira da li će tu i ostati, stekli sliku o priči čiji deo mogu biti. Ne bi bilo loše da ovo predavanje drži neko ko se bavi prodajom, a ne razvojem proizvoda. ![Termoelektrana Nikola Tesla - Obrenovac]({{ site_url }}/images/tesla-obrenovac.jpg) Naravno, ne treba naglašavati da ono treba biti očišćeno od svih klasičnih trgovačkih _farbarija_ ("ne ostavljajte ovaj softver nasamo sa svojom ženom jer _pravi malu decu_ itd"), već jedna što objektivnija slika o tome šta je taj softver, čemu služi i u kom pravcu se kreće. Demonstrirajte im softver. Pokažite onaj jako zgodan feature sa izvozom u XML, automatsko obaveštenje o grešci putem SMS-a ili _Matrix_om inspirisan skin. _Prodajte_ programerima program na kome će raditi. Nije zgoreg ni predstaviti par konkurentskih proizvoda, da bi se stekla celovitija slika o poziciji na tržištu, pogotovu ako se radi o nekom polju sa kojim se programeri nisu do tad sretali. Idealni slučaj bi bio kad bi se novozaposleni upoznali i sa proizvodom na delu, to jest u rukama stvarnih, živih korisnika, sa stvarnim, živim podacima u bazi itd.
+
+Pre nego što novog ložača gurnete u podrum pred ralje visoke peći i date mu lopatu, provedite ga malo po celom kompleksu, pokažite mu bager napravljen od čelika livenog _njegovom_ vatrom i dečicu kraj toplih radijatora u obdaništu. Učinite da se oseća bitnim i svrsishodnim; možda on neće naprasno zavoleti tu svoju lopatu i brdo uglja, ali će ih sasvim sigurno malo manje mrzeti.
+

@@ -1,0 +1,18 @@
+---
+layout: post
+title: GoDaddy
+date: '2005-07-22 02:52:38 +0200'
+mt_id: 134
+post_id: 134
+author: mileusna
+---
+Ukoliko planirate da kupite domen preko [GoDaddy](http://godaddy.com) servisa, evo obrasca koga se treba pridržavati. Na svoju žalost, iskusio sam ga lično više puta, tako da je recept oproban.
+
+Prvo treba znati da je bolje selektovati Jugoslaviju kao zemlju a ne SCG, jer tek sa SCG vaše kartice će biti odbijene. Neretko će vam se desiti da jednostavno sa vašom kreditnom karticom ne možete kupiti domen. Sve što treba da radite u takvoj situaciji jeste da svakog dana ponovo probate da izvršite uplatu i jednog dana servis jednostavno prihvati sve i eto vama vašeg domena.
+
+Ne trošite vreme na support. Uvek će vas smatrati za idiota i savetovaće vam da proverite stanje na vašem računu ili slično. Narano, objasnićete im da sa istom karticom uplata neki put radi bez problema, a neki put ne. Tada će vas podsetiti da opet treba da proverite stanje na vašem računu.
+
+No, što bi rekao naš narod, ko zna zašto je to dobro. Ja sam eto sad svoje domene počeo da produžavam na više godine.
+
+Da bi informacija bila potpuna, koristim VISA Virtuon Raiffeisen banke.
+

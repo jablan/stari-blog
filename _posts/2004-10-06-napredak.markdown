@@ -1,0 +1,12 @@
+---
+layout: post
+title: Napredak
+date: '2004-10-06 23:25:08 +0200'
+mt_id: 106
+post_id: 106
+author: mileusna
+---
+Ko bi rekao da će doći i taj dan u Srbiji da se mogu pohvaliti time da od kuće imam non-stop Internet konekciju. Povezivanjem preko [SBB](http://www.sbb.co.yu) operatera kablovske televizije od danas sam stalno priključen na Internet brzinom od 128kbps i to zadovoljstvo me košta 1500 dinara mesečno. S obzirom na brzinu i pogodnosti stalne veze, kao i na dosadašnje troškove telefonskog računa i Internet vremena, meni je ova investicija višestruko isplativa.
+
+Komentar jednog mog drug iz Londona bio je "pa što tako mala brzina" tek da se razumemo da smo i dalje svetlosnu godinu daleko za svetom. Primera radi, ADSL ili cable konekcija na 512kbps u UK mesečno se plaća 25 funti (oko 2500 din), a za svega desetak funti više dobićete celih 1mbps.
+

@@ -1,0 +1,12 @@
+---
+layout: post
+title: ".yu"
+date: '2006-03-27 13:37:21 +0200'
+mt_id: 167
+post_id: 167
+author: mileusna
+---
+Na [Elite Security](http://www.elitesecurity.org) forumu otvorena je [javna rasprava](http://www.elitesecurity.org/forum/230) o statutu Registra nacionalnog Internet domena (RNID), neprofitne organizacije koja će uskoro preuzeti na sebe funkciju centralnog registra .yu Internet domena i omogućiti da se prevaziđu svi problemi i ograničenja koja trenutno postoje u vezi sa registracijom .yu domena.
+
+Javna rasprava će trajati do 3. aprila 2006. godine.
+

@@ -1,0 +1,12 @@
+---
+layout: post
+title: B92 RSS
+date: '2004-03-29 14:02:03 +0200'
+mt_id: 80
+post_id: 80
+author: mileusna
+---
+Konačno je i B92 krenuo sa RSS-om, nadam se da će ovo pokrenuti i ostale servise da prate malo trendove, mada...
+
+Postoje dva kanala, jedan za [vesti](http://www.b92.net/news/rss/full.php) i drugi za [sport](http://www.b92.net/news/rss/sport.php).
+

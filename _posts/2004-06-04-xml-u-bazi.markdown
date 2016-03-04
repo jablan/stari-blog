@@ -1,0 +1,47 @@
+---
+layout: post
+title: XML u bazi
+date: '2004-06-04 00:20:38 +0200'
+mt_id: 93
+post_id: 93
+author: mileusna
+---
+Sledeća verzija MSSQL-a pod radnim nazivom Yukon već uveliko kasni, no to nije predmet ovog priloga. Očekuje se da MSSQL dobije veoma jaku podršku za XML, ne samo za vraćanje rezultata u XML formatu što već postoji, već i za pohranjivanje XML podataka. MSSQL uvodi XML tip podataka kao i odgovarajuću podršku, tako da će biti moguće izvršiti i nešto nalik sledećem SQL upitu:
+
+    CREATE TABLE Books
+     (BookID int identity PRIMARY KEY,
+      BookDetails xml)
+    
+    INSERT INTO Books (BookDetails)
+      VALUES ('<book>
+                     <author>Mike Gunderloy</author>
+                     <title>Dot NET</title>
+                  </book>')
+    
+    SELECT BookDetails::query('book/author') FROM Books
+
+Zaista fino, naročito ako ste u praksi imali već sličnu situaciju. Naime, nedavno sam imao slučaj da su određeni XML podaci pohranjeni u text polja. Bilo je potrebno uraditi izeštaje kojima će biti potrebne određene vrednosti iz XML-a tako da sve to može kroz par upita da se provuče. Nakon malo traženja po dokumentaciji i Internetu, došao sam do sledećeg rešenja, koje se zasniva na par ugrađenih uskladištenih procedura. Ukratko, nešto nalik ovome:
+
+    DECLARE @xmlDoc VARCHAR(8000)
+    DECLARE @xmlHandle INT
+    BEGIN
+       SELECT @xmlDoc=xml_data FROM some_table; 
+       EXEC sp_xml_preparedocument @xmlHandle OUTPUT, @xmlDoc
+       SELECT * FROM OPENXML (@xmlHandle, '/book', 2) WITH
+       (
+          author VARCHAR(20) './author',
+          title VARCHAR(50) './title'
+       )
+       EXEC sp_xml_removedocument @xmlHandle
+    END
+
+Prvo sam želeo da napravim korisničku funkciju koja bi mogla da se koristi direktno u upitima pri čemu bi se prosledilo xml polje i xpath putanja do željene vrednosti, kao npr:
+
+    SELECT ReadXmlValue(xml_data, "/book/author") AS author,
+       ReadXmlValue(xml_data, "/book/title") AS title
+       FROM some_table;
+
+...ali zbog ograničenja MSSQL-a da se iz korisničkih funkcija ne mogu pozivati uskladištene procedure, kao npr. sp\_xml\_preparedocument, morao sam da se zadovoljim rešenjem sa svojom uskladištenom procedurom koja vraća potrebne podatke, a kasnije ih kroz JOIN koristim po potrebi.
+
+Tu nije bio kraj problemima, ali neka ostane za sad na ovome, pa ako neko naleti na sličan problem neka se javi, ili da sačekamo Yukon.
+

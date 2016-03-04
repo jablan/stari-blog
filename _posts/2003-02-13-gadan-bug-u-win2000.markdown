@@ -1,0 +1,10 @@
+---
+layout: post
+title: Gadan bug u Win2000
+date: '2003-02-13 12:20:46 +0100'
+mt_id: 8
+post_id: 8
+author: jablan
+---
+![zla buba]({{ site_url }}/images/Insect.gif)Neprijatan način da se sazna da je limit veličine fajla na FAT32 particiji 4Gb je taj kad Win2000 nekim čudom **dozvoli** da se veći fajl kreira, a kad onda na njega kliknete (!) u exploreru - jednostavno **resetuje** (!?) mašinu, bez pardona! Stvarno neverovatno...
+

@@ -1,0 +1,18 @@
+---
+layout: post
+title: Apdejt
+date: '2008-01-16 09:25:33 +0100'
+mt_id: 227
+post_id: 227
+author: jablan
+---
+Jedno kratko javljanje nakon gotovo dva meseca... Iz privatnih razloga vratio sam se na neko vreme (najmanje 6 meseci) nazad u Beograd. Fini ljudi iz Monstera ponudili su mi radno mesto od sredine 2008, ali nisam želeo da se unapred obavezujem, tako da sam dao otkaz. Što, načelno, i nije tako loše jer posao koji sam u poslednje vreme tamo obavljao nije bio preterano interesantan, barem ne za mene koji volim da većinu svog radnog vremena zapravo pišem programe.
+
+Imao sam par direktnih ponuda za posao u Beogradu, i većina je podrazumevala .NET, kao vrlo traženu, ali i platformu u kojoj sam najiskusniji. No...
+
+Par meseci pre nego što ću napustiti Monster, krenuo sam da se detaljnije interesujem za dinamičke i funkcionalne jezike, kao ekspresivnije i produktivnije od mainstream C#-a i Jave. Iskreno, pišući C# imam osećaj da pišem daleko više koda nego što je zaista potrebno.
+
+Prvo sam malo istraživao [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29) i njegov veb frejmvork [Django](http://www.djangoproject.com/) i bio sam zaista fasciniran elegancijom i brzinom razvoja koji ova platforma nudi. Kasnije sam krenuo da učim i [Ruby](http://en.wikipedia.org/wiki/Ruby_programming_language) i analogni [Rails](http://www.rubyonrails.org/) frejmvork - sličnu i podjednako moćnu kombinaciju. Veliku podršku i uverenje da ne gubim vreme dobio sam od par sjajnih kolega iz Monstera koji su takođe koristili ove dve platforme - za svoje lične projekte "ljubimce" ne pada im na pamet da koriste .NET, jedan radi Rails i Erlang, drugi Django. Dakle, nabavio sam [literaturu](http://www.pragprog.com/titles/rails2) i krenuo par projekata za svoju dušu (od kojih će neki možda i ugledati svetlo dana ;)). Moram da priznam da se entuzijazam koji imam u otkrivanju i korišćenju ovog moćnog dueta može porediti sa entuzijazmom kad sam počinjao sa programiranjem - ni u slobodno vreme mozak nije dokon, a u Operi na mobilnom nosim [Kramp (Pickaxe)](http://whytheluckystiff.net/ruby/pickaxe/), za čitanje u prevozu.
+
+Takođe sam imao sreće da naletim na firmu u Beogradu koja u svom radu koristi Ruby i Rails i od sada nadalje radim tamo. Detalje o novoj firmi možda u nekom od idućih postova.
+

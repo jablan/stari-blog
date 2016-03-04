@@ -1,0 +1,16 @@
+---
+layout: post
+title: Selidba
+date: '2006-10-18 10:59:26 +0200'
+mt_id: 187
+post_id: 187
+author: jablan
+---
+Kao što ste možda primetili, radionica je preseljena na novi domen i na novi hosting. Nova adresa je [http://blog.radioni.ca](http://blog.radioni.ca). Kul, zar ne? ;) Razlog za selidbu je već pominjana nemogućnost administracije .co.yu domena, kao i slaba podrška za hosting na Veratu.
+
+Na starom domenu još stoji stara varijanta, samo sam postavio permanentno preusmeravanje. Stari linkovi još uvek rade, ali bih bio zahvalan da promenite svoje bookmark-e i eventualne linkove.
+
+Takođe je promenjena kodna strana, sada je u pitanju UTF-8.
+
+Ako uočite bilo kakav problem, molim vas da ga prijavite ovde u komentaru, ili na mejl. Hvala puno!
+

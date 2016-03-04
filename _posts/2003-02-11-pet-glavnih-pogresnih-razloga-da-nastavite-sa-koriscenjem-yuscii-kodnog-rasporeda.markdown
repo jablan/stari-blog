@@ -1,0 +1,73 @@
+---
+layout: post
+title: Pet glavnih (pogrešnih) razloga da nastavite sa korišćenjem YUSCII kodnog rasporeda
+date: '2003-02-11 12:04:33 +0100'
+mt_id: 4
+post_id: 4
+author: jablan
+---
+Ozloglašeni kodni raspored izgleda da još uvek egzistira kao (najgore moguće) rešenje problema koga praktično svi operativni sistemi skoro 10 godina unazad efikasno rešavaju na bolje načine. Kako se, naposletku, boriti protiv YUSCII-ja?
+
+
+
+<!--more-->
+
+#### Uvod
+
+Do skoro sam zaista mislio da za postojanje jednog ovakvog dokumenta stvarno nema potrebe. Živeo sam u blaženom ubeđenju da je YUSCII raspored odavno prešao na smetlište računarske tehnologije, zajedno sa MS-DOS-om, Clipperom i segmentiranim pristupom memoriji, i da postoji samo u podsmešljivim "eh, to beše vreme" pričicama prekaljenih računardžija iz "pre 95" ere. No sticajem okolnosti, u kratkom vremenskom periodu naišao sam na par nepobitnih dokaza da ozloglašeni kodni raspored nije ostao ugušen u prašumama EPROM čipova iz pretpotopskih matričnih štampača i Hercules grafičkih kartica, već da se povremeno javlja i u urbanijim predelima i pravi nered tamo gde ga najmanje očekujemo.
+
+Naime, imao sam prilike da u svojoj firmi učestvujem u prijemu novih kandidata i, s tim u vezi, prijemu i iščitavanju njihovih rezimea. Jednostavno nisam mogao da verujem kada sam u par njih (od par desetina koliko smo primili) na mestima na kojima sam očekivao uobičajena srpska (i ne samo srpska) slova, primetio stare znance - vitičaste zagrade, tilde i ostale simbole u narodu popularnije pod imenom "kuke i kvake". Na stranu to što nije lagano probijati se kroz redove načičkane ovakvim slovima, na kraju krajeva, s obzirom da sam zaista dugo u branši, navikao sam da čitam svakakve polučitljive tekstove, bolje reći sekvence bajtova. Pravi problem je u tome što nije lako uzeti zaozbiljno jedan ovako napisan CV i primiti kandidata, koji ga je tako ponosno sastavio fontom "YUCirHelvetica" i pustio u sajber-etar, bez predrasuda o njegovoj računarskoj kulturi, a samim tim i o njegovim mogućnostima za bavljenje izradom softvera.
+
+Sa druge strane, od starog prijatelja i kolege, čujem da se u jednoj domaćoj firmi, za koju radi softver, propisuje YUSCII kao **standardni kodni raspored** za čuvanje podataka i dokumenata. Šaka zabludelih korisnika YUSCII-ja je jedna stvar, a potpuno druga (i ozbiljnija) ovakva anahrona politika na nivou cele firme.
+
+Zbog svega toga, odlučio sam da potrošim malo vremena, napišem ovaj tekst i tako dam svoju prilog naporu da se ovoj pošasti smesti kolac u srce i da se ona najzad pošalje u IT prošlost, gde joj je i mesto. Ovde, dakle, dajem pet pogrešnih razloga koje mogući zagovornici YUSCII-ja mogu izneti u prilog korišćenja istog, zajedno sa razjašnjenjima o čemu se tu ustvari radi i na koji način se mogući problemi mogu prevazići.
+
+#### 1. YUSCII fontovi su bolji.
+
+U vreme začetka stonog izdavaštva u nas, tamo prvom polovinom devedesetih, podrška za ne-engleske jezike i alfabete u softverskim paketima za DTP i grafiku, a bogami i u operativnim sistemima, bila je zaista rudimentarna. Imali smo situaciju da su računari polako postajali sve priuštiviji domaćem džepu, softver sve moćniji, ali jedinstvene podrške za naša slova jednostavno nije bilo. Domaći dizajneri (!?) su se na različite načine dovijali, krpili fontove, od više njih sastavljali jedan, da bi uspeli da zadovolje domaće tržište vizit-kartama, nalepnicama za bezalkoholne napitke, a bogami neretko i ozbiljnijim štampanim materijalima, omotima, pa i knjigama. U tadašnjem moru raspoloživih i nedovoljno standardizovanih domaćih kodnih rasporeda ipak je dominirao YUSCII, zbog jednostavnosti i zbog već pomenutih matričnih štampača i dorađivanih Hercules kartica. Tako se nametnuo i kao logično rešenje za novokreirane fontove, i tržište su preplavila imena sa "Cir" i "YU" prefiksima, koji su pouzdano govorila da se iza njih kriju "budženi" fontovi, bez vitičastih i uglastih zagrada, ali zato sa preko potrebnim domaćim slovima na njihovim mestima.
+
+Kvalitet ovih fontova, s obzirom da su ih obično pravili, bolje reći dorađivali, ljudi bez velikog tipografskog i estetskog znanja, a o lingvističkom da i ne govorimo, bio je obično ispod zadovoljavajućeg, bilo je tu, doduše, svih domaćih slova, ali se nisu mogli porediti sa fontovima koji su izlazili iz ogromnih renomiranih fabrika poput [Adobe](http://www.adobe.com/type/main.html)-a ili [Bitstream](http://store.bitstream.com/search.asp)-a, u kojima su na razvoju fontova radili multidisciplinarni timovi stručnjaka, ali koji zato nisu besplatni.
+
+U međuvremenu, giganti poput Microsofta promenili su stratešku situaciju u računarskoj industriji, svi noviji operativni sistemi dolaze sa grupom gotovih, [jako kvalitetnih fontova](http://www.microsoft.com/typography) koji su ovaj put prilagođeni srpskom, a i svim ostalim alfabetima, pojavio se i standard nazvan [Unicode](http://www.unicode.org), koji bi trebalo da konačno reši sve glavobolje oko kodnih rasporeda. Dakle, običan korisnik računara koji se ne bavi grafičkim dizajnom i pripremom za štampu nema razloga da još uvek koristi zaostale YUSCII fontove, kad su mu na raspolaganju gotovi, sistemski fontovi koje može koristiti bez bojazni da neko sa kime posredstvom računara korespondira, neće videti poruku (štampani dokument, e-mail) onako kako je autor vidi.
+
+Ostaju profesionalci, grafički dizajneri i izdavači koji na računarima jednostavno **moraju** da gaje milion različitih fontova koji se često i ne isporučuju u softverskim paketima, a koji su već, kroz dugu praksu, nakupili diskove YUSCII fontova koji im, ukratko, rade posao. Šta s njima?
+
+Treba imati u vidu da proizvod njihovog rada nije e-mail ili Word dokument koji će nekom poslati, već štampani dokument, folije spremne za ulazak u štamparski proces ili, u krajnjoj liniji, postscript ili PDF dokumenti koji se, opet, na različitim platformama vide isto, jer su praktično spremni za štampu.
+
+Dakle, čak i ako ste iz profesionalnih razloga prinuđeni da gajite ozloglašene fontove na računaru (jer kojim se drugim fontom može odraditi firma za pečenjaru ili omot za kasetu sa rodoljubivim guslarskim pesmama nego, bože moj, ćirilicom "a la Miroslavljevo Jevanđelje"), ne morate da ih sa svog računara šaljete drugima. Nemojte zadavati glavobolje ljudima kojima pišete, već se potrudite da ti fontovi napuštaju vaš sistem samo u "svarenom" obliku, dakle kao postscript, PDF ili bitmap slike.
+
+#### 2. YUSCII fontovi su lepši
+
+Da bih bacio malo svetlosti na ovu zabludu moram malo zagrebati teoriju koja stoji iza cele ove priče. Unapred se izvinjavam onima koje to ne interesuje, a bogami i onima koji su stručniji od mene u datom polju, pošto možda neću odabrati najadekvatnije izraze i definicije za neke pojmove.
+
+Elem, generalno postoje dve vrste fontova: vektorski i bitmapirani. Kod **vektorskih** , svako slovo je opisano skupom krivih (u slučaju TrueType fontova koji se danas uglavnom koriste u pitanju su tzv. Bezier-ove krive). To praktično znači da se jedno slovo može do beskonačnosti uvećavati, a da i dalje njegova ivica bude blago povijena linija. Nasuprot njima, **bitmapirani** fontovi predstavljaju dvodimenzionalnu matricu tačaka određene veličine. U jednom trenutku uvećavanja ovih fontova, primetiće se nazubljene ivice svakog slova, koje su posledica ograničenih dimenzija matrica koje opisuju ova slova.
+
+Na prvi pogled, neko bi se upitao čemu onda uopšte bitmapirani fontovi i zašto svi ne bismo koristili vektorske fontove sa maznim ivicama. Ali situacija nije toliko jednostavna. Naime, izlazni uređaji poput monitora nemaju dovoljno veliku rezoluciju da bi na fontovima manje veličine (recimo 16 tačaka i manje) mogli verno da reprodukuju detalje koji su vektorskim krivama opisani, pa vektorski fontovi izgledaju ružno i nejednako. Zato se primenjuje kompromisna tehnologija: za slova veća od određene veličine, koriste se vektorski, a za manja bitmapirani fontovi, specijalno obrađeni ("hintovani") za tu veličinu tako da se svako slovo uklapa u matricu koju nudi izlazni uređaj. Na taj način dobija se najbolji kvalitet pri svakoj veličini slova. Microsoft, na primer, primenjuje ovu tehnologiju kod fontova koje isporučuje uz svoje proizvode, tako što u isti font upakuje i vektorske i marljivo izrađene matrične zapise slova za popularne veličine. Kod ručno "budženih" YUSCII fontova obično ne postoji matrični zapis, pa su ovi fontovi na monitoru ružni i naporniji za čitanje od standardnih. A da ne govorimo o tome koliko su ljudi koji obično izrađuju YUSCII fontove na ovim prostorima potkovani neophodnim tipografskim znanjima i koliko vode računa o ostalim aspektima pravljenja dobrog fonta (kerning, italik, uniformnost).
+
+#### 3. Programi bolje rade sa YUSCII kodnim rasporedom
+
+U zemlji verovatno postoje i funkcionišu programi različite namene, nastali pre svega u doba MS-DOS-a, koji su pisani tako da rade sa našim karakterima po YUSCII standardu. U ovom slučaju YUSCII fontovi i dalje moraju da postoje. No, treba imati u vidu da će se sav softver, pre ili kasnije, zameniti novim, koji se sve češće piše u alatima koji podržavaju i podrazumevaju korišćenje nacionalnih karaktera. Tako svi savremeni sistemi za upravljanje bazama podataka poseduju mogućnosti za rad sa nacionalnim karakterima, što znači da propisno (u nacionalnom abecednom ili azbučnom redosledu) sortiraju stringove, vrše konverziju malih slova u velika i obratno itd.
+
+Kod YUSCII rasporeda, programi **ne znaju da se radi o slovima** (i dalje te znakove posmatraju kao uglaste i vitičaste zagrade i ostale kuke i kvake). Svaka intervencija da bi se pravilno postupalo sa ovakvim stringovima ostavljena je na programerima, što nije dobro prvo zato što programerima oduzima vreme (a investitoru samim tim novac), a drugo stoga što je mogućnost pojave greške mnogo veća nego ako se oslonimo na podršku obezbeđenu od strane operativnog sistema ili baze.
+
+#### 4. Puno naših dokumenata je već po YUSCII-ju i teško se mogu konvertovati
+
+Konverzija, u zavisnosti od prirode dokumenata i podataka o kojima se radi može biti manje ili više komplikovana, ali je u svakom slučaju lakše i brže (moram li da kažem i jeftinije) konvertovati manju količinu nego ogromnu bazu dokumenata koja je nastala dok je neko kočio proces prelaska sa YUSCII-ja, koji se pre ili kasnije mora desiti. Setite se starih plakata iz zubarskih čekaonica: bolje lečite kvar dok je mali; u suprotnom ćete morati da date velike pare nekom za konverziju kad vaš veliki poslovni partner bude zahtevao sve dokumente po Unicode-u i kad shvatite da ne možete od svakog očekivati da ima "YU Times" instaliran na računaru da bi pročitao vašu poslovnu ponudu.
+
+U jednom trenutku ćete možda poželeti dinamičku prezentaciju na Internetu na kojoj će potencijalne mušterije moći da pristupe ponudi vaše firme koja se nalazi u vašoj bazi podataka. Moraćete naći (a bogami i platiti) programera koji će vam napraviti tu zakrpu za on-the-fly konverziju kodnog rasporeda i povezati sa postojećom prezentacijom. Zapitajte se da li je jeftinije to ili konvertovati postojeću bazu uz pomoć par SQL upita i dalje nastaviti sa razvojem kao da YUSCII-ja nikad nije ni bilo.
+
+Zato, bolje požurite sa prelaskom, jer svaki novi dokument napisan po YUSCII-ju znači **više novca** koji ćete pre ili kasnije, kad dotera cara do duvara, dati nekom da taj isti dokument konvertuje. [Ovde](http://www.praktikum.co.yu/office/download/index.htm) možete naći link do čuvenog Vračkovog konvertora za Word koga svako, bilo koristio YUSCII fontove ili ne, mora imati, na kraju krajeva da bi učinio čitljivim YUSCII dokument dobijen od nekog reakcionarno nastrojenog računardžije.
+
+#### 5. YUSCII fontovi su lakši za korišćenje
+
+U radu sa YUSCII fontovima, da biste počeli da ih koristite, dovoljno je da ga uzmete željeni "YU Cir Bodoni" font, iskopirate ga u Fonts folder, uđete u Word, odaberete ga u listi fontova i - voila - ćirilica je tu. Ono što je problem je to što ćete obično teško naći iste fontove u ćiriličnoj i latiničnoj varijanti, plus jedan font kad vam ustrebaju vitičaste zagrade ("čemu te zagrade uopšte služe?", reći ćete). Brojevi i zajednička slova će vam, naprimer, izgledati različito u ćiriličnoj i latiničnoj varijanti. Moraćete da menjate font da biste otkucali rimski broj. Ne smem ni da pomislim šta bi se desilo kad biste morali da otkucate neko rusko ili francusko slovo. Mislite da ih je autor YUSCII fonta uključio?
+
+Nasuprot tome, imate mogućnost da pri instalaciji operativnog sistema (ili naknadno, svejedno) instalirate domaća slova u latiničnoj i ćiriličnoj varijanti i dobijete paket jako dobrih fontova. U Wordu ćete, kad budete hteli da pišete ćirilicom, samo promeniti raspored tastature uz pomoć miša ili kombinacije tastera (ubedite me da je ovo komplikovanije od nabadanja jednog od 1000 instaliranih fontova u Wordovoj listi), i nastaviti ćirilicom, **istim fontom**. Sve izgleda fino i usklađeno na ekranu, isto tako će se i odštampati, ljudi kojima šaljete taj dokument će moći da ga pročitaju i videće ga isto onako kao što ste i vi dok ste ga kucali. Možete da uradite eksport u HTML i okačite dobijenu stranu na Internet bez bojazni da je ljudi neće videti kako treba, ma koji browser koristili.
+
+#### Korisni linkovi
+
+- Vračkov konvertor za Word, sem konverzije kodnih rasporeda radi i konverziju ćirilice u latinicu i obratno, generalno jedan od najkorisnijih programa poniklih sa ovog podneblja. Uz to, džabe. Možete ga naći na [sledećoj lokaciji](http://www.praktikum.co.yu/office/download/index.htm)
+- Na sledeće dve lokacije možete naći opširan tekst Miloša Rančića o srpskom jeziku na računarima, po mom mišljenju previše ćirilicofilski, ali zato ispunjen korisnim informacijama. Jedan njegov deo bavi se i kodnim stranama i podrškom našim pismima od strane operativnih sistema. [Lokacija 1](http://main.amu.edu.pl/~sipkadan/PREG15.HTM), [lokacija 2](http://www.public.asu.edu/~dsipka/PREG15.HTM)
+- Jedan [dobar tekst](http://www.praktikum.co.yu/beleske/bel_006.htm) o (naravno, lošim) iskustvima sa YUSCII-jem iz pera domaćeg gurua za MS Office, Dragana Grbića
+- Slučajno sam naišao na jednu [korisnu stranicu](http://www.vet.bg.ac.yu/yu_slova.html) sa uvodnim informacijama o kodnim rasporedima, manama YUSCII-ja i instalaciji sistemske podrške za domaće fontove u Windowsu. Zanimljivo, stranica se nalazi na sajtu Veterinarskog Fakulteta u Beogradu. Svaka čast, momci!
+- A sada jedan [negativan primer](http://www.tmf.bg.ac.yu/serbian/nasupit/query.htm), opet sa jedne univerzitetske ustanove: deo prezentacije Tehnološko-Metalurškog Fakulteta u Beogradu.

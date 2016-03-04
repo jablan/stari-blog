@@ -1,0 +1,12 @@
+---
+layout: post
+title: HP 530
+date: '2008-05-31 12:49:57 +0200'
+mt_id: 229
+post_id: 229
+author: jablan
+---
+Topla preporuka za korisnike Linuksa kojima treba laptop sa dobrim odnosom performanse i cene: [HP 530](http://h10010.www1.hp.com/wwpc/us/en/sm/WF06a/321957-321957-64295-3251176-89315-3375953.html) sa CoreDuo procesorom. Za 40k dinara dobijete sasvim pristojan laptop sa procesorom na 2.33GHz, 2GB memorije i 120GB hardom. Sveža instalacija Ubuntu 8.04 operativnog sistema prepoznaje sve od hardvera (nisam siguran jedino za modem, nije mi trebao). Sistem radi brzo i besprekorno.
+
+Problemi koje (još) nisam uspeo da rešim su: sleep ne radi kada se koristi Compiz, ne radi podešavanje rezolucije i pozicije eksternog monitora, ne radi LED lampica za bežičnu mrežu.
+
