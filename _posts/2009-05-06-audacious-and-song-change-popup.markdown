@@ -5,6 +5,7 @@ date: '2009-05-06 15:42:39 +0200'
 mt_id: 233
 post_id: 233
 author: jablan
+lang: en
 ---
 If you're using Linux and like the simple winamp-like UI for your music player, you are probably using [Audacious](http://audacious-media-player.org/) (if not, you should definitely take a look). Audacious offers its own OSD for notifying about song changes etc, but I don't like it, and I wanted to make use of nice notification system [Jaunty](http://www.ubuntu.com/) uses (notification-daemon). Audacious doesn't offer the possibility to communicate with notification-daemon out of the box (at least not that I know of), but offers the plugin which invokes arbitrary command upon certain actions, such as song change.
 

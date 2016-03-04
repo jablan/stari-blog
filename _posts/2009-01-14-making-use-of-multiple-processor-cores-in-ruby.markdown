@@ -5,6 +5,7 @@ date: '2009-01-14 15:24:09 +0100'
 mt_id: 232
 post_id: 232
 author: jablan
+lang: en
 ---
 Most today's computers have more than one processor core, and it's a pity not to make use of that fact, especially when using a language as slow as Ruby. Unfortunately, ruby threads all execute on the same core as the process itself, so no luck there (I think jRuby works better there, but often it's not a choice). But sometimes we can use processes instead of threads. In the following example we're doing just that, forking several processes to execute a task that's suitable for parallel processing.
 

@@ -5,6 +5,7 @@ date: '2010-05-06 16:34:33 +0200'
 mt_id: 235
 post_id: 235
 author: jablan
+lang: en
 ---
 You'll forgive me if there is already a library or gem which already provides this feature. This piece of code was thrown together quickly as a [response](http://stackoverflow.com/questions/2779880/locale-based-sorting-function-in-ruby/2780628#2780628) to a StackOverflow question. Not tested thoroughly, and not production-ready quality, but could be usable if polished a little bit.
 

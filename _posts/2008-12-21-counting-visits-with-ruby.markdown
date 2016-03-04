@@ -5,6 +5,7 @@ date: '2008-12-21 12:25:11 +0100'
 mt_id: 231
 post_id: 231
 author: jablan
+lang: en
 ---
 Here's a piece of ruby code I wrote to count visits in log files. I'll explain it in more details afterwards:
 
