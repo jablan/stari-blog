@@ -4,6 +4,7 @@ title: Phoenix and JSON templates
 date: '2016-10-02 09:00:00 +0200'
 author: jablan
 lang: en
+tags: elixir, phoenix, json, templates
 ---
 ## Problem
 
@@ -13,21 +14,27 @@ I needed a JSON output from Phoenix framework, but it should be based on predefi
 
 So, an initial, intuitive approach was the following:
 
-    # my_controller.ex
-    defmodule Papp.MyController do
-      use Papp.Web, :controller
+```elixir
+# my_controller.ex
+defmodule Papp.MyController do
+  use Papp.Web, :controller
 
-      def from_template(conn, _args) do
-        render(conn, "from_template.json")
-      end
-    end
+  def from_template(conn, _args) do
+    render(conn, "from_template.json")
+  end
+end
+```
 
-    # from_template.json.eex
-    {"message":"Hello World!"}
+```json
+# from_template.json.eex
+{"message":"Hello World!"}
+```
 
 But when you fire up the server and get the response, you'd be unpleasantly surprised:
 
-    "{\"message\":\"Hello World!\"}"
+```json
+"{\"message\":\"Hello World!\"}"
+```
 
 What?! Your JSON is now JSON-encoded string containing your desired JSON.
 
@@ -37,61 +44,71 @@ It turns out, that's not that trivial with Phoenix. Views in Phoenix are just bu
 
 Obviously, Phoenix is treating JSON templates differently, so why not pretending our JSON is not JSON? Simply renaming our template to something like `from_template.jsonr.eex` ("r" for "raw", or whatever you like) solves the issue - our output is not double encoded anymore. However, when you do not use JSON as an extension anymore, then your response's `content-type` won't be OK anymore, so you'll need to force it:
 
-    # my_controller.ex
-    defmodule Papp.MyController do
-      use Papp.Web, :controller
+```elixir
+# my_controller.ex
+defmodule Papp.MyController do
+  use Papp.Web, :controller
 
-      def from_template(conn, _args) do
-        conn
-        |> put_resp_content_type("application/json")
-        |> render("from_template.jsonr")
-      end
-    end
+  def from_template(conn, _args) do
+    conn
+    |> put_resp_content_type("application/json")
+    |> render("from_template.jsonr")
+  end
+end
+```
 
-    # from_template.jsonr.eex
-    {"message":"Hello World!"}
+```json
+# from_template.jsonr.eex
+{"message":"Hello World!"}
+```
 
 ## Solution 2: Skip encoding by direct rendering
 
 If we call view's `render/3` function directly from the controller (instead of using `render/2` from the `Phoenix.Controller`), the encoding part is skipped (it happens in `render_to_iodata/3` function):
 
-    # my_controller.ex
-    def from_template(conn, _args) do
-      conn
-      |> put_resp_content_type("application/json")
-      |> send_resp(200, Phoenix.View.render(Papp.MyView, "eex_template.json", []))
-    end
+```elixir
+# my_controller.ex
+def from_template(conn, _args) do
+  conn
+  |> put_resp_content_type("application/json")
+  |> send_resp(200, Phoenix.View.render(Papp.MyView, "eex_template.json", []))
+end
+```
 
 ## Solution 3: Custom format encoder and custom template engine
 
 Chris McCord heard about the problem and suggested that, if I would like to work around the problem properly, I could create custom format encoder, which would differently treat input from template and from the view. Although it can guess by the type of data (the template returns a string - binary, the view returs a structure), the cleaner approach would be sending the metadata (simple `:raw` will do) along with the content. For that, a custom template engine could be put together:
 
-    # papp_eej_engine.ex
-    defmodule Papp.EejEngine do
-      def compile(path, name) do
-        {:raw, EEx.compile_file(path, engine: EEx.SmartEngine, line: 1, trim: true)}
-      end
-    end
+```elixir
+# papp_eej_engine.ex
+defmodule Papp.EejEngine do
+  def compile(path, name) do
+    {:raw, EEx.compile_file(path, engine: EEx.SmartEngine, line: 1, trim: true)}
+  end
+end
 
-    # papp_json_encoder.ex
-    defmodule Papp.JsonEncoder do
-      def encode_to_iodata!({:raw, json}) when is_binary(json), do: json
-      def encode_to_iodata!(json) do
-        Poison.encode_to_iodata!(json)
-      end
-    end
+# papp_json_encoder.ex
+defmodule Papp.JsonEncoder do
+  def encode_to_iodata!({:raw, json}) when is_binary(json), do: json
+  def encode_to_iodata!(json) do
+    Poison.encode_to_iodata!(json)
+  end
+end
+```
 
 Of course, one needs to configure the custom stuff:
 
-    # config.exs
-    config :phoenix, :format_encoders,
-      html: Phoenix.HTML.Engine,
-      json: Papp.JsonEncoder
+```elixir
+# config.exs
+config :phoenix, :format_encoders,
+  html: Phoenix.HTML.Engine,
+  json: Papp.JsonEncoder
 
-    config :phoenix, :template_engines,
-      eex: Phoenix.Template.EExEngine,
-      exs: Phoenix.Template.ExsEngine,
-      eej: Papp.EejEngine
+config :phoenix, :template_engines,
+  eex: Phoenix.Template.EExEngine,
+  exs: Phoenix.Template.ExsEngine,
+  eej: Papp.EejEngine
+```
 
 ## Conclusion
 
