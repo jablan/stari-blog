@@ -1,0 +1,9 @@
+@startuml Marbluino
+
+(Master) <-> (Slave1) : position
+(Master) <-> (Slave2) : position
+(Slave1) <-> (Slave2) : position
+(Slave1) <-- (Master) : game data
+(Slave2) <-- (Master) : game data
+
+@enduml

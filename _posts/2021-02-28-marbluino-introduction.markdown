@@ -4,6 +4,7 @@ title: 'Marbluino: Introduction'
 date: '2021-02-28 22:14:00 +0200'
 author: jablan
 lang: en
+tags: marbluino esp8266 arduino
 ---
 
 Here's a first article in a series about a hobby project of mine - a simple Arduino based game.
