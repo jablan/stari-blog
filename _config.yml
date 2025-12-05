@@ -1,12 +1,12 @@
 # Site settings
 title: Radionica - stari blog
-email: jablan et radioni tačka ca
+email: blog et jablanovic tačka com
 description: > # this means to ignore newlines until "baseurl:"
   Arhiva sa sadržajem jednog od najstarijih srpskih blogova. Sam sadržaj
   uglavnom više nije aktuelan, pa ništa što piše ne uzimajte zdravo za 
   gotovo. :)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://stariblog.radioni.ca" # the base hostname & protocol for your site
+url: "http://blog.jablanovic.com" # the base hostname & protocol for your site
 github_username:  jablan
 
 # Build settings
@@ -14,4 +14,3 @@ markdown: kramdown
 
 gems:
   - jekyll-redirect-from
- 
